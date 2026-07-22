@@ -15,7 +15,7 @@ The project systematically moves from raw data extraction to interactive clinica
                                                                      <br><br>
 [Streamlit Interactive App] ◄── [DGIdb / Open Targets Annotation] ◄── [Hub Gene / kME Extraction]
              ▲
-             │
+             │ <br><br>
 [TCGA-LUAD Clinical Cross-Validation (Z-summary Preservation)]
 
 * **Phase 1: Data Acquisition & Quality Control (QC)** Retrieval of high-throughput gene expression datasets from public repositories like NCBI GEO and TCGA, followed by sample metadata cleaning and outlier removal.
