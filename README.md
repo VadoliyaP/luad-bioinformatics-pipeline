@@ -25,20 +25,20 @@ The project systematically moves from raw data extraction to interactive clinica
 ### 🛠️ Technology Stack
 Statistical Computing & Bioinformatics (R 4.3+):
 
-DESeq2 / limma — Differential gene expression.
+ DESeq2 / limma — Differential gene expression.
 
-WGCNA / fastcluster / dynamicTreeCut — Co-expression network construction and module detection.
+ WGCNA / fastcluster / dynamicTreeCut — Co-expression network construction and module detection.
 
-GEOquery & TCGAbiolinks — Data retrieval from GEO and TCGA repositories.
+ GEOquery & TCGAbiolinks — Data retrieval from GEO and TCGA repositories.
 
-AnnotationDbi & platform-specific annotation packages (hgug4112a.db) — Probe-to-gene symbol mapping.
+ AnnotationDbi & platform-specific annotation packages (hgug4112a.db) — Probe-to-gene symbol mapping.
 
 API Integration, Networks & Dashboard (Python 3.10+):
 
-Pandas / NumPy — Data manipulation and table preprocessing.
+ Pandas / NumPy — Data manipulation and table preprocessing.
 
-Requests / GraphQL — Programmatic fetching from DGIdb and Open Targets APIs.
+ Requests / GraphQL — Programmatic fetching from DGIdb and Open Targets APIs.
 
-Streamlit — Interactive frontend dashboard design.
+ Streamlit — Interactive frontend dashboard design.
 
-Plotly / Matplotlib / Seaborn — Network and scatter visualizations.
+ Plotly / Matplotlib / Seaborn — Network and scatter visualizations.
