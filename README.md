@@ -25,17 +25,17 @@ The project systematically moves from raw data extraction to interactive clinica
 * **Phase 5: Clinical Cross-Validation & Dashboard** Validating the robustness of co-expression modules against independent patient cohorts using module preservation statistics ($Z_{\text{summary}}$) and deploying an interactive web application.
 
 ### 🛠️ Technology Stack
-* **Statistical Computing & Bioinformatics (R 4.3+):**
+**Statistical Computing & Bioinformatics (R 4.3+):**
 
- DESeq2 / limma — Differential gene expression.
+* DESeq2 / limma — Differential gene expression.
 
- WGCNA / fastcluster / dynamicTreeCut — Co-expression network construction and module detection.
+* WGCNA / fastcluster / dynamicTreeCut — Co-expression network construction and module detection.
 
  GEOquery & TCGAbiolinks — Data retrieval from GEO and TCGA repositories.
 
  AnnotationDbi & platform-specific annotation packages (hgug4112a.db) — Probe-to-gene symbol mapping.
 
-* **API Integration, Networks & Dashboard (Python 3.10+):**
+**API Integration, Networks & Dashboard (Python 3.10+):**
 
  Pandas / NumPy — Data manipulation and table preprocessing.
 
