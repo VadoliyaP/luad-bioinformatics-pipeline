@@ -12,7 +12,7 @@ The project systematically moves from raw data extraction to interactive clinica
                                                                         │<br>
 [Streamlit Interactive App] ◄── [DGIdb / Open Targets Annotation] ◄── [Hub Gene / kME Extraction]
             ▲
-            └──────────────────────────────────────────────────────────┘
+            └──────────────────────────────────────────────────────────┘<br>
              [TCGA-LUAD Clinical Cross-Validation (Z-summary Preservation)]
 * **Phase 1: Data Acquisition & Quality Control (QC)** Retrieval of high-throughput gene expression datasets from public repositories like NCBI GEO and TCGA, followed by sample metadata cleaning and outlier removal.
 * **Phase 2: Differential Expression Analysis (DEGs)** Comparing tumor tissues against normal adjacent tissues to identify significantly upregulated or downregulated genes ($\log_2\text{FC}$, $p_{\text{adj}} < 0.05$).
