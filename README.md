@@ -9,7 +9,7 @@ By combining R for statistical modeling and Python for connecting with online me
 The project systematically moves from raw data extraction to interactive clinical deployment across five distinct phases:
 
 [GEO Discovery Dataset] ➔ [DESeq2 / Limma DEG Analysis] ➔ [WGCNA Network Clustering]
-                                                                        │
+                                                                        │<br>
 [Streamlit Interactive App] ◄── [DGIdb / Open Targets Annotation] ◄── [Hub Gene / kME Extraction]
             ▲
             └──────────────────────────────────────────────────────────┘
