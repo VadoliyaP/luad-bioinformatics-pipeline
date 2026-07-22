@@ -4,20 +4,16 @@ This pipeline is a complete computational workflow built to study lung adenocarc
 
 By combining R for statistical modeling and Python for connecting with online medical databases, the pipeline takes raw genetic data from real cancer patients, cleans it up, groups related genes into networks to find the most important "hub" drivers, and checks whether those targets can actually be treated with existing drugs. Finally, everything comes together in an interactive web dashboard so you can easily search for genes and explore the results visually.
 
-
-
-### 🔄 Multi-Phase Workflow Architecture
+🔄 Multi-Phase Workflow Architecture
 
 The project systematically moves from raw data extraction to interactive clinical deployment across five distinct phases:
 
-
 [GEO Discovery Dataset] ➔ [DESeq2 / Limma DEG Analysis] ➔ [WGCNA Network Clustering]
-                                                                     <br><br>
+                                                                        │
 [Streamlit Interactive App] ◄── [DGIdb / Open Targets Annotation] ◄── [Hub Gene / kME Extraction]
-             <br>             
-              ▲
-[TCGA-LUAD Clinical Cross-Validation (Z-summary Preservation)]
-
+            ▲
+            └──────────────────────────────────────────────────────────┘
+             [TCGA-LUAD Clinical Cross-Validation (Z-summary Preservation)]
 * **Phase 1: Data Acquisition & Quality Control (QC)** Retrieval of high-throughput gene expression datasets from public repositories like NCBI GEO and TCGA, followed by sample metadata cleaning and outlier removal.
 * **Phase 2: Differential Expression Analysis (DEGs)** Comparing tumor tissues against normal adjacent tissues to identify significantly upregulated or downregulated genes ($\log_2\text{FC}$, $p_{\text{adj}} < 0.05$).
 * **Phase 3: Weighted Gene Co-Expression Network Analysis (WGCNA)** Constructing scale-free biological networks ($\beta = 14, R^2 \ge 0.80$) to cluster co-expressed genes into color-coded modules (e.g., turquoise, blue, brown) and extract high-centrality hub genes using Module Membership ($kME$).
