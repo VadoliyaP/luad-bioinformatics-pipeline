@@ -14,7 +14,7 @@ The project systematically moves from raw data extraction to interactive clinica
 [GEO Discovery Dataset] ➔ [DESeq2 / Limma DEG Analysis] ➔ [WGCNA Network Clustering]
                                                                      <br><br>
 [Streamlit Interactive App] ◄── [DGIdb / Open Targets Annotation] ◄── [Hub Gene / kME Extraction]
-             <br><br>             
+             <br>             
               ▲
 [TCGA-LUAD Clinical Cross-Validation (Z-summary Preservation)]
 
