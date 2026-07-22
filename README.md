@@ -1,6 +1,8 @@
 ## 🧬 Understanding Lung Adenocarcinoma (LUAD) Bioinformatics Pipeline
 
-**Lung Adenocarcinoma (LUAD)** is the most prevalent histological subtype of non-small cell lung cancer (NSCLC). This pipeline provides an automated systems biology workflow designed to bridge raw genomics data with clinical translation, utilizing both R and Python to process, analyze, and visualize multi-omic profiles.
+This pipeline is a complete computational workflow built to study lung adenocarcinoma (LUAD)—the most common form of lung cancer. Instead of just looking at single genes one by one, it looks at the big picture of how genes interact with each other inside tumor cells.
+
+By combining R for statistical modeling and Python for connecting with online medical databases, the pipeline takes raw genetic data from real cancer patients, cleans it up, groups related genes into networks to find the most important "hub" drivers, and checks whether those targets can actually be treated with existing drugs. Finally, everything comes together in an interactive web dashboard so you can easily search for genes and explore the results visually.
 
 
 
