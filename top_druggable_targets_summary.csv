@@ -1,0 +1,11 @@
+GeneSymbol,Categories,Drug_Count,Sample_Drugs,Druggability_Tier,ModuleColor
+MAPK6,None,0,None,Tier 2 (Druggable Gene Family),blue
+SLC38A1,None,0,None,Tier 2 (Druggable Gene Family),blue
+GPR20,None,0,None,Tier 2 (Druggable Gene Family),turquoise
+SLC2A10,None,0,None,Tier 2 (Druggable Gene Family),turquoise
+SLC31A2,None,0,None,Tier 2 (Druggable Gene Family),turquoise
+SLC39A10,None,0,None,Tier 2 (Druggable Gene Family),blue
+ABCC10,None,0,None,Tier 2 (Druggable Gene Family),blue
+SLC25A40,None,0,None,Tier 2 (Druggable Gene Family),blue
+ABCC9,None,0,None,Tier 2 (Druggable Gene Family),turquoise
+SLC1A4,None,0,None,Tier 2 (Druggable Gene Family),blue

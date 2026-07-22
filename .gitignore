@@ -1,0 +1,9 @@
+# Environments & Caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.streamlit/
+
+# Large raw data or output files if needed
+data/raw/
+*.RData

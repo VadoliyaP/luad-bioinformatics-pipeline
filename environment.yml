@@ -1,0 +1,13 @@
+name: luad_pipeline
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - r-base=4.3
+  - pip
+  
+  # Core Data Science Toolkits (Python)
+  - pandas
+  - numpy
+  - requests
